@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="stylesheet" href="./css/style.css" />
+      <link rel="icon" href="./assets/images/hanibal-icon.ico" type="hanibal-icon">
+      <title>Hanibal</title>
+   </head>
+   <body>
+      <div class="wrapper">
+         <header class="header wrap">
+            <div class="info_header_wrap">
+               <div class="info_header">
+                  <div class="header_logo">
+                     <a href="/">
+                     <img src="./assets/images/logo.png" alt="header logo"/>
+                     </a>
+                  </div>
+                  <div class="header_search_wrap">
+                     <form class="header_search" action="">
+                        <span class="search_icon">
+                           <ion-icon name="search-outline"></ion-icon>
+                        </span>
+                        <input class="search_input" type="text" placeholder="Hledáte značku, oblečení..." />
+                        <span class="search_close_icon">
+                           <ion-icon name="close-outline"></ion-icon>
+                        </span>
+                     </form>
+                  </div>
+                  <div class="contact_wrap">
+                     <div class="contact_icon">
+                        <img src="./assets/images/icons/phone.png" alt="phone icon" />
+                     </div>
+                     <div class="contact_phone">
+                        <p class="contact_text">Poradíme vám s výběrem</p>
+                        <a href="tel:220920820">
+                           <p class="contact_title">220 920 820</p>
+                        </a>
+                     </div>
+                  </div>
+               </div>
+               <div class="header_user">
+                  <span class="liked">
+                     <ion-icon name="heart-outline"></ion-icon>
+                  </span>
+                  <span class="user">
+                     <ion-icon name="person-outline"></ion-icon>
+                  </span>
+                  <span class="cart">
+                     <ion-icon name="cart-outline"></ion-icon>
+                  </span>
+               </div>
+            </div>
+            <nav class="nav info_header">
+               <div class="burgerBtn_menu" onclick="toggleMenu()">
+                  <span></span>
+               </div>
+               <div class="burger_menu">
+                  <ul class="navbar_burger navbar">
+                     <li><a href="#">Muži</a></li>
+                     <li><a href="#">Ženy</a></li>
+                     <li><a href="#">Děti</a></li>
+                     <li><a href="#">Boty</a></li>
+                     <li><a href="#">Turistika a camping</a></li>
+                     <li><a href="#">Lezení</a></li>
+                     <li><a href="#">Ostatní</a></li>
+                     <li><a href="#">Značky</a></li>
+                     <li>
+                        <a href="#">Výprodej<span>%</span></a>
+                     </li>
+                  </ul>
+               </div>
+               <form class="search_small" action="">
+                  <span class="search_icon">
+                     <ion-icon name="search-outline"></ion-icon>
+                  </span>
+                  <input class="search_input" type="text" placeholder="Hledáte značku, oblečení..." />
+                  <span class="search_close_icon">
+                     <ion-icon name="close-outline"></ion-icon>
+                  </span>
+               </form>
+               <ul class="navbar">
+                  <li><a href="#">Muži</a></li>
+                  <li><a href="#">Ženy</a></li>
+                  <li><a href="#">Děti</a></li>
+                  <li><a href="#">Boty</a></li>
+                  <li><a href="#">Turistika a camping</a></li>
+                  <li><a href="#">Lezení</a></li>
+                  <li><a href="#">Ostatní</a></li>
+                  <li><a href="#">Značky</a></li>
+                  <li>
+                     <a href="#">Výprodej<span>%</span></a>
+                  </li>
+               </ul>
+               <div class="header_filter">
+                  <p>Vybrat podle aktivity</p>
+               </div>
+            </nav>
+         </header>
+      </div>
+      <section class="banner equip_img">
+         <div class="banner_wrap">
+            <div class="banner_info">
+               <div class="equip_nav">
+                  <a href="/">Hanibal.cz</a>
+                  <a>Aktivity</a>
+               </div>
+               <h3>Vyberte si vybavení podle aktivity</h3>
+               <p>
+                  Vivamus ac leo pretium faucibus. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Praesent id justo in neque elementum ultrices. Nullam lectus justo, vulputate eget mollis sed, tempor sed magna. Etiam dui sem, fermentum vitae, sagittis id, malesuada in, quam. Donec iaculis gravida nulla. Duis sapien nunc, commodo et, interdum suscipit, sollicitudin et, dolor. Integer tempor. Vestibulum fermentum tortor id mi. Nulla turpis magna, cursus sit amet, suscipit a, interdum id, felis.
+               </p>
+            </div>
+         </div>
+      </section>
+      <main class="content_wrap">
+         <section class="categories">
+            <div class="turistika">
+               <p>Turistika a treking</p>
+               <img src="./assets/images/turistika_a_treking.png" alt="Turistika a treking" />
+            </div>
+            <div class="ferraty">
+               <p>Via ferraty</p>
+               <img src="./assets/images/via_ferraty.png" alt="Via ferraty" />
+            </div>
+            <div class="skialpinismus">
+               <p>Skialpinismus</p>
+               <img src="./assets/images/skialpinismus.png" alt="Skialpinismus" />
+            </div>
+            <div class="lezeni">
+               <p>Lezení</p>
+               <img src="./assets/images/lezení.png" alt="Lezení" />
+            </div>
+            <div class="running">
+               <p>Trail running</p>
+               <img src="./assets/images/trail_running.png" alt="Trail running" />
+            </div>
+            <div class="kempovani">
+               <p>Kempování</p>
+               <img src="./assets/images/kempování.png" alt="Kempování" />
+            </div>
+            <div class="outdoor">
+               <p>Urban outdoor</p>
+               <img src="./assets/images/urban_outdoor.png" alt="Urban outdoor" />
+            </div>
+            <div class="vysky">
+               <p>Práce ve výškách</p>
+               <img src="./assets/images/práce_ve_výškách.png" alt="Práce ve výškách" />
+            </div>
+            <div class="vybavit">
+               <p>Jak se vybavit?</p>
+               <img src="./assets/images/vybavit.png" alt="Jak se vybavit?" />
+            </div>
+         </section>
+         <section class="details">
+            <div class="details_info">
+               <h5>Důraz na detail a kvalitu</h5>
+               <p>
+                  Cras pede libero, dapibus nec, pretium sit amet, tempor quis. Donec vitae arcu. Aliquam erat volutpat. Nullam justo enim, consectetuer nec, ullamcorper ac, vestibulum in, elit.
+               </p>
+               <p>
+                  Nullam dapibus fermentum ipsum. Nullam justo enim, consectetuer nec, ullamcorper ac, vestibulum in, elit. Integer malesuada. Phasellus rhoncus. Praesent dapibus. Aliquam id dolor. Maecenas fermentum, sem in pharetra pellentesque, velit turpis volutpat ante, in pharetra metus odio a lectus. Etiam bibendum elit eget erat. Maecenas aliquet accumsan leo.
+               </p>
+               <p>
+                  Nullam rhoncus aliquam metus. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Maecenas aliquet accumsan leo. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+               </p>
+            </div>
+            <div>
+               <img class="details_img_1" src="./assets/images/details-1.png" alt="mountain image_1" />
+            </div>
+            <div>
+               <img class="details_img_2" src="./assets/images/details-2.png" alt="mountain image_2" />
+            </div>
+            <div class="details_production">
+               <h5>Vyrobeno v ČR</h5>
+               <p>
+                  Cras pede libero, dapibus nec, pretium sit amet, tempor quis. Donec vitae arcu. Aliquam erat volutpat. Nullam justo enim, consectetuer nec, ullamcorper ac, vestibulum in, elit.
+               </p>
+               <p>
+                  Nullam dapibus fermentum ipsum. Nullam justo enim, consectetuer nec, ullamcorper ac, vestibulum in, elit. Integer malesuada. Phasellus rhoncus. Praesent dapibus. Aliquam id dolor. Maecenas fermentum, sem in pharetra pellentesque, velit turpis volutpat ante, in pharetra metus odio a lectus. Etiam bibendum elit eget erat. Maecenas aliquet accumsan leo.
+               </p>
+               <p>
+                  Nullam rhoncus aliquam metus. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Maecenas aliquet accumsan leo. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+               </p>
+            </div>
+         </section>
+      </main>
+      <section class="banner banner_news">
+         <div class="banner_wrap">
+            <div class="banner_info">
+               <h3>Hanibal news</h3>
+               <p>
+                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam libero tempore, cum soluta nobis est eligendi optio cumque.
+               </p>
+               <form class="email_form" id="emailForm">
+                  <input class="email_input" type="email" name="email" id="email" placeholder="Zadejte váš e-mail">
+                  <button type="submit" class="email_submit">
+                     <span class="email_icon">
+                        <ion-icon name="mail-outline"></ion-icon>
+                     </span>
+                  </button>
+               </form>
+               <a class="email_example">Ukázkový e-mail pro představu</a>
+            </div>
+         </div>
+      </section>
+      <footer class='footer'>
+         <section class="contact wrap">
+            <div class="contact_header">
+               <p>Rádi vám pomůžeme s výběrem</p>
+            </div>
+            <div class="contact_container">
+               <div class="contact_wrap dsbl_decor">
+                  <div class="contact_icon">
+                     <img src="./assets/images/icons/phone.png" alt="phone icon" />
+                  </div>
+                  <div class="contact_phone">
+                     <a href="tel:220920820">
+                        <p class="contact_title">220 920 820</p>
+                     </a>
+                     <p class="contact_text">10–18 h</p>
+                  </div>
+               </div>
+               <div class="contact_wrap dsbl_decor">
+                  <div class="contact_icon">
+                     <img src="./assets/images/icons/email.png" alt="phone icon" />
+                  </div>
+                  <div class="contact_phone">
+                     <a href="tel:220920820">
+                        <p class="contact_title">info@hanibal.cz</p>
+                     </a>
+                     <p class="contact_text">kdykoliv</p>
+                  </div>
+               </div>
+               <div class="contact_wrap dsbl_decor">
+                  <div class="contact_icon">
+                     <img src="./assets/images/icons/position.png" alt="phone icon" />
+                  </div>
+                  <div class="contact_phone">
+                     <p class="contact_text">Zastavte se na některé z našich</p>
+                     <a href="tel:220920820">
+                        <p class="contact_title">4 prodejen</p>
+                     </a>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <section class="links_container">
+            <div>
+               <ul class="links">
+                  <li>Pro zákazníky</li>
+                  <li>
+                     <a href="#">
+                        Klub Hanibal
+                  </li>
+                  <li><a href="#">Kurzy a eventy</a></li>
+                  <li><a href="#">Blog</a></li>
+                  <li><a href="#">Poradna</a></li>
+               </ul>
+            </div>
+            <div>
+               <ul class="links">
+                  <li>O nákupu</a>
+                  </li>
+                  <li>
+                     <a href="#">
+                        Doprava a platba
+                  </li>
+                  <li><a href="#">Vrácení nebo výměna zboží</a></li>
+                  <li><a href="#">Reklamační řád</a></li>
+                  <li><a href="#">Často kladené otázky</a></li>
+                  <li><a href="#">Obchodní podmínky</a></li>
+               </ul>
+            </div>
+            <div>
+               <ul class="links">
+                  <li>Důležité odkazy</li>
+                  <li><a href="#">Nákup pro skupiny</a></li>
+                  <li><a href="#">Mapa stránek</a></li>
+               </ul>
+            </div>
+            <div>
+               <ul class="links">
+                  <li>Nejhledanější kategorie</li>
+                  <li><a href="#">Pánské nepromokavé bundy</a></li>
+                  <li><a href="#">Pánské softshellové bundy</a></li>
+                  <li><a href="#">Pánské zimní bundy</a></li>
+                  <li><a href="#">Dámské bundy</a></li>
+                  <li><a href="#">Pánské nízké boty</a></li>
+               </ul>
+            </div>
+         </section>
+         <section class="footer_links_container wrap">
+            <ul class="footer_links">
+               <li>&copy 2020</li>
+               <li><a href="#">Hanibal.cz</a></li>
+               <li><a href="#">Nastavení cookies</a></li>
+               <li><a href="#">Osobní údaje</a></li>
+               <li><a href="#">Podmínky užití</a></li>
+               <li><a href="#">Prohlášení o přístupnosti</a></li>
+            </ul>
+            <a href="#">Shop by wpj.cz</a>
+         </section>
+      </footer>
+      <script defer src="./js/script.js"></script>
+      <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+      <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+   </body>
+</html>
